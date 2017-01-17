@@ -24,7 +24,8 @@ module.exports = {
     root: __dirname,
     modulesDirectories:[
       'node_modules',
-      './app/components'
+      './app/components',
+      './app/api'
     ],
     alias:{
 
@@ -49,5 +50,8 @@ module.exports = {
       path.resolve(__dirname, './node_modules/foundation-sites/scss')
     ]
   },
+  watchOptions: {
+  poll: true
+},
   devtool: 'cheap-module-eval-source-map'
 };
