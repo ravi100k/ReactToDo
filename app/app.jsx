@@ -12,9 +12,7 @@ require('style!css!sass!applicationStyles')
 
 ReactDOM.render(
   <div>
-    <h1>React Todo App</h1>
     <TodoApp/>
-
 </div>,
   document.getElementById('app')
 );
